@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Título da Página - Nome da Empresa</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos específicos para cada página */
+  </style>
+  <script>
+    // Função para exibir uma imagem aleatória
+    function exibirImagemAleatoria() {
+      var imagens = ['acme.png', 'bag.png', 'bomb.png', 'brick.png', 'missile.png', 'rock.png', 'rope.png'];
+      var randomIndex = Math.floor(Math.random() * imagens.length);
+      var randomImage = imagens[randomIndex];
+      var imgElement = document.getElementById('random-image');
+      imgElement.src = randomImage;
+    }
+  </script>
+</head>
+<body onload="exibirImagemAleatoria()">
+  <header>
+    <!-- Conteúdo do cabeçalho -->
+    <h1>Nome da Empresa</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="missao.html">Missão</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Conteúdo principal da página -->
+    <h2>Título da seção</h2>
+    <p>Conteúdo da seção</p>
+    <img id="random-image" class="random-image" src="" alt="Imagem Aleatória">
+  </main>
+
+  <footer>
+    <!-- Conteúdo do rodapé -->
+    <p>© 2023 Nome da Empresa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
