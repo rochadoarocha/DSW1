@@ -1,9 +1,17 @@
-# DSW1   2REPOSITÓRIO DESENVOLVIMENTO WEB I
+# DSWI
+REPOSITORIO DESENVOLVIMENTO WEB I
 
-Página do GitHub
+[GitHub Page](https://rochadoarocha-j-s.github.io/DSWI/)
 
 Ecercícios:
-
-Exercício 1
-Exercício 2
-Exercício 3
+  <ol>
+      <li>
+        <a href="https://rochadoarocha-j-s.github.io/DSWI/Exercicio1/pages/home.html">Exercício 1</a>
+      </li>
+      <li>
+        <a href="https://rochadoarocha-j-s.github.io/DSWI/exercicio2/conta.html">Exercício 2</a>
+      </li>
+      <li>
+        <a href="https://rochadoarocha-j-s.github.io/DSWI/exercicio3/pages/home.html">Exercício 3</a>
+      </li>
+  </ol>
